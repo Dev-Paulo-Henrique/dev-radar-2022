@@ -105,48 +105,6 @@ function Main({ navigation }) {
             </Callout>
           </Marker>
         ))}
-        {/* <Marker
-            coordinate={{ 
-              longitude: -34.97051,
-              latitude: -8.11021, 
-            }}
-          >
-            <Image 
-              style={styles.avatar} 
-              source={{ uri: "https://avatars.githubusercontent.com/u/67799522?v=4" }}
-            />
-
-            <Callout onPress={() => {
-              navigation.navigate('Profile', { github_username: 'Dev-Paulo-Henrique' });
-            }}>
-              <View style={styles.callout}>
-                <Text style={styles.devName}>Paulo Santos</Text>
-                <Text style={styles.devBio}>Recife, 18</Text>
-                <Text style={styles.devTechs}>Usuário da Safe Woman desde Abril</Text>
-              </View>
-            </Callout>
-          </Marker>
-        <Marker
-            coordinate={{ 
-              longitude: -34.96051,
-              latitude: -8.12321, 
-            }}
-          >
-            <Image 
-              style={styles.avatar} 
-              source={{ uri: "https://instagram.frec43-1.fna.fbcdn.net/v/t51.2885-19/280558890_1643318082714634_4977609424545019575_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.frec43-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=-zpftb-Yr5kAX-DlgBa&edm=ALbqBD0BAAAA&ccb=7-5&oh=00_AT-gMYQQjnL2Lom3uuUGjc9bWTj-BcWHr2jDUXDz6vh5cA&oe=62BADB44&_nc_sid=9a90d6" }}
-            />
-
-            <Callout onPress={() => {
-              navigation.navigate('Profile', { github_username: 'Dev-Paulo-Henrique' });
-            }}>
-              <View style={styles.callout}>
-                <Text style={styles.devName}>Geovana Evelyn</Text>
-                <Text style={styles.devBio}>Jaboatão dos Guararapes, 17</Text>
-                <Text style={styles.devTechs}>Usuário da Safe Woman desde Março</Text>
-              </View>
-            </Callout>
-          </Marker> */}
       </MapView>
       <View style={styles.searchForm}>
         <TextInput 
